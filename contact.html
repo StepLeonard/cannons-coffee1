@@ -25,12 +25,57 @@
             <li>
               <a href="contact.html" target="_blank">CONTACT</a>
             </li>
+            <li><a href="cart.html" target="_blank">Cart</a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <h2>"Contact Cannons Coffee!</h2>
-        <p>Coming soon!</p>
+        <h2>Contact Cannons Coffee!</h2>
+        <form id="form">
+          <label for="firstName">First name: </label><br />
+          <input type="text" id="firstname" name="firstName" required />
+          <br /><br />
+
+          <label for="lastName">Last name: </label><br />
+          <input type="text" id="lastName" name="lastName" required />
+          <br /><br />
+
+          <label for="eMail">Email: </label><br />
+          <input type="email" id="eMail" name="eMail" required />
+          <br /><br />
+          <label for="phone">Phone number:</label><br />
+          <input type="tel" id="phone" name="phone" /><br /><br />
+          <br /><br />
+          <label for="comments">Comments:</label><br />
+          <textarea id="comments" name="comments" rows="5" cols="30"></textarea
+          ><br /><br /><br />
+          <label for="coffeeFlavor"> Favorite Flavor: </label>
+          <select id="coffeeFlavor" name="coffeeFlavor" required>
+            <option value="">Select</option>
+            <option value="coffee">Coffee</option>
+            <option value="vanilla">Vanilla</option>
+            <option value="mocha">Mocha</option></select
+          ><br /><br /><br />
+          <fieldset>
+            <legend>What are you interested in?</legend>
+            <br />
+            <label
+              ><input type="radio" name="interested" value="coffee" /> Buying
+              coffe</label
+            >
+            <br />
+            <label
+              ><input
+                type="radio"
+                name="interested"
+                value="employment"
+              />Employment</label
+            >
+          </fieldset>
+          <br /><br />
+          <button type="submit">Submit</button>
+        </form>
+        <div class="container"></div>
       </main>
       <footer>
         <img

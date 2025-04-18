@@ -160,3 +160,9 @@ footer {
     padding-right: 1rem;
   }
 }
+.container {
+  padding-bottom: 2rem;
+}
+fieldset {
+  display: inline-block;
+}

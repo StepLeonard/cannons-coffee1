@@ -30,19 +30,28 @@
         </nav>
       </header>
       <main>
-        <div class="grid1">
-          <img class="child1" src="images/latte.jpg" alt=" Latte in a cup" />
+        <form id="form">
+          <h1>Please Login!</h1>
+          <p>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
 
-          <div class="child2">
-            <h2>CAFFE LATTE</h2>
-            <p>
-              One shot of espresso coffee plus plenty of steamed milk. Choose
-              skim milk, regular milk, or oat milk.
-            </p>
+            <label for="eMail">Email:</label><br />
+            <input type="eMail" id="eMail" name="eMail" required /><br /><br />
 
-            <a href="" class="greenbutton">ORDER NOW</a>
-          </div>
-        </div>
+            <label for="pw">Password: </label><br />
+            <input
+              type="password"
+              id="pw"
+              name="pw"
+              required
+            /><br /><br /><br />
+
+            <button type="submit">"Login!"</button>
+          </p>
+
+          <div class="container"></div>
+        </form>
       </main>
       <footer>
         <img
@@ -52,6 +61,6 @@
         <p>© 2024 Cannons Coffee. All Rights Reserved</p>
       </footer>
     </div>
-    <script src="js/custom.js"></script>
+    <script src="js/cart.js"></script>
   </body>
 </html>
